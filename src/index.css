@@ -1,0 +1,26 @@
+*{
+  box-sizing: border-box; 
+}
+
+:root {
+  --bg-color-one: #0089FF;
+  --bg-color-two: #D1E4F8;
+
+}
+
+html{
+  min-height: 80rem;
+  background: linear-gradient(var(--bg-color-one), var(--bg-color-two));
+}
+
+body{
+
+  font-family: "Playwrite NZ", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
